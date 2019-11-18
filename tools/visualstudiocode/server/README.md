@@ -7,9 +7,11 @@ Para ejecutar el server, se tiene que considerar:
 - Instalar nodemon via npm es una forma simple de tener levantado el server actualizado con cada cambio
 - Tener instalado nodejs y npm
 
-#Instrucciones:
+# Instrucciones:
 
 1. Bajar el proyecto
 2. Ejecutar npm install
-3. Cambiar el numero de puerto si fuera necesario en el archivo /config.js
-4. Ejecutar "nodemon server.js"
+3. Ejecutar "nodemon server.js"
+
+## Considerar
+Al momento de levantar el servidor tarda alrededor de 20 seg en hacer la llamada a la api, obtener los datos y su posterior guardado en MongoDB Atlas.
