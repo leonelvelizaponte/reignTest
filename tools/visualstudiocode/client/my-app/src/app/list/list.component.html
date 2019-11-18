@@ -1,0 +1,18 @@
+<div>
+    <div id="articulos" *ngFor="let articulo of articulos; let i = index">
+        <div id="inner-articulos">
+            <!--<p>{{articulo.title || articulo.story_title}} <span id="autor"> - {{articulo.author}} -</span></p><p><span id="date">{{articulo.created_at}}</span></p>-->
+            <table>
+                <tr>
+                    <td id="td-title">
+                        <p>{{articulo.title || articulo.story_title}} <span id="autor"> - {{articulo.author}} -</span></p>
+                    </td>
+                    <td id="td-date">
+                        <p><span id="date">{{articulo.created_at | date}}</span></p>
+                    </td>
+                    <td id="td-delete"><span (click)="eliminar(i)" id="span-delete" class="glyphicon glyphicon-trash"></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

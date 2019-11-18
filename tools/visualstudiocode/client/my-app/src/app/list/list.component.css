@@ -1,0 +1,46 @@
+
+#autor{
+    opacity: .50
+}
+
+table {
+    padding-top: 15 px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+#td-date{
+    width: 12%;
+    align-content:"left";
+}
+
+#td-delete{
+    width: 5%;
+    align-content:"left";
+}
+
+#span-delete{
+    visibility:hidden;
+}
+
+#td-title{
+    padding-left: 30px;
+}
+
+table :hover{
+    background: #17a689; 
+}
+
+table :hover > #td-delete #span-delete{
+    visibility: visible;
+}
+
