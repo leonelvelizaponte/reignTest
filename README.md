@@ -38,3 +38,6 @@ Cualquier duda pueden escribirme a leonelvelizaponte@gmail.com
 ### Anotaciones
 - El cliente puede parametrizarse (si hubieran mas rutas a las cuales llaman, se podria proporcionar un archivo file.conf donde se podrian manejar de mejor manera las url)
 - El borrado, solo ocurre visualmente, ya que no hay llamado a Base de Datos, esto puede mejorarse agregando un flag de eliminación para poder manejar luego la duplicaciòn de los datos con las llamadas que hace el servicio cada hora
+- Se puede agregar cierta interface de "espera" o "cargando" mientras se carga la lista en el front-end
+- Se puede agregar por medio de routing un enlace que te lleve al articulo que seleccionas
+- Se puede agregar un mensaje diciendo "esta seguro en eliminar el articulo" al momento de borrarlo
