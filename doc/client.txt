@@ -1,0 +1,12 @@
+Client-side Reign
+
+Este es el proyecto del cliente realizado en Angular8
+
+Instrucciones:
+
+1. Bajar el proyecto
+2. Ejecutar npm install
+3. Ejecutar npm start
+
+Considerar
+Abrir en un navegador la url localhost:4200 , dependiendo la conexión la carga de la lista puede demorar unos 10 seg
